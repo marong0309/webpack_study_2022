@@ -8,5 +8,21 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+
+  // npm i jqury jquery-ui
+   // 배포용 라이브러리
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "jquery-ui": "^1.13.1"
+  },
+
+  // npm i vue -D
+  // npm i vue --save
+  // 개발용 라이브러리
+  "devDependencies": {
+    "vue": "^3.2.37"
+  }
 }
+
+// 최종서버에 배포시 devDependencises로 install 한건 작동하지 않는다.
